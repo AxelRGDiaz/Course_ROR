@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(180, 247, 247);
+}
+a{
+    text-decoration: none;
+    color: #000000; 
+}
+#add{
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #00ff00; /* Bordes verdes */
+    border-radius: 10px; /* Esquinas curvadas */
+    background-color: #ffffff; /* Fondo blanco */
+    color: #000000; /* Texto verde */
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Transición suave de colores */
+}
+#add:hover{
+    background-color: #00ff00; /* Fondo verde al pasar el cursor */
+    color: #000000; /* Texto blanco al pasar el cursor */
+}
